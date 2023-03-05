@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.analogclockexample.AnalogClock
+        android:id="@+id/analogClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D1D1D1"
+        app:backgroundColor="#C8C8C8"
+        app:borderColor="#6A6A6A"
+        app:borderOffset="50.0"
+        app:borderThickness="30.0"
+        app:centerColor="#252525"
+        app:centerRadiusOrbit="20.0"
+        app:dialColor="#393939"
+        app:dialElementSize="80.0"
+        app:dialTextFont="fonts/example_font.ttf"
+        app:dialType="numbers"
+        app:hourHandColor="#494949"
+        app:hourHandThickness="10.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:minuteHandColor="#494949"
+        app:secondHandColor="#E57373"
+        app:secondHandSize="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

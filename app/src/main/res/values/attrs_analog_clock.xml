@@ -1,0 +1,37 @@
+<resources>
+    <declare-styleable name="AnalogClock">
+        <attr name="dialType" format="enum">
+            <enum name="numbers" value="0" />
+            <enum name="romanNumbers" value="1" />
+            <enum name="circle" value="2" />
+            <enum name="none" value="3" />
+        </attr>
+        <attr name="dialColor" format="color" />
+        <attr name="dialElementSize" format="float" />
+        <attr name="dialTextFont" format="string" />
+        <attr name="dialRadiusOrbit" format="float" />
+
+        <attr name="centerRadiusOrbit" format="float" />
+        <attr name="centerColor" format="color" />
+
+        <attr name="hourHandSize" format="float" />
+        <attr name="hourHandColor" format="color" />
+        <attr name="hourHandThickness" format="float" />
+
+        <attr name="secondHandSize" format="float" />
+        <attr name="secondHandColor" format="color" />
+        <attr name="secondHandThickness" format="float" />
+
+        <attr name="minuteHandSize" format="float" />
+        <attr name="minuteHandColor" format="color" />
+        <attr name="minuteHandThickness" format="float" />
+
+        <attr name="borderOffset" format="float" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderThickness" format="float" />
+
+        <attr name="backgroundColor" format="color|reference" />
+
+        <attr name="delayUpdate" format="integer" />
+    </declare-styleable>
+</resources>
